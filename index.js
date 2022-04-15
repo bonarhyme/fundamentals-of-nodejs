@@ -72,6 +72,12 @@ const street = "Ikenegbu";
 //  g. Modulus (Division Remainder) %
 //  h. Increment ++
 //  i. Decrement --
+//  j. Increment with any number: Prefix  += means
+//  k. -= e.g x-=y means x = x - y
+//  l. *= e.g x*=y means x = x * y
+//  m. /= e.g x/=y means x = x / y
+//  n. %= e.g x%=y means x = x % y
+//  o. **= e.g x**=y means x = x ** y
 
 // e.g of Addition:
 const add = 1 + 3;
@@ -101,8 +107,19 @@ let aIncrr = inc;
 let dec = 10;
 dec--;
 let aDerr = dec;
+// console.log(aDerr);
 
-console.log(aDerr);
+// Prefix  +=
+let m = 2;
+let b = 7;
+
+// m = m + b;
+
+// console.log(m);
+// Instead of doing the above we can shorten it like this:
+m += b;
+
+// console.log(m);
 
 // console.log() is used to print in the terminal e.g
 // console.log("Hello World!");
